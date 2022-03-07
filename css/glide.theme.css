@@ -1,0 +1,40 @@
+.glide__arrow {
+  position: absolute;
+  display: block;
+  top: 50%;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 50px;
+  opacity: .2;
+  cursor: pointer;
+  transition: opacity 150ms ease, border 300ms ease-in-out;
+  transform: translateY(-50%);
+  line-height: 1;
+  border: none;
+ }
+  .glide__arrow:focus {
+    outline: none; }
+  .glide__arrow:hover {
+    color: #8d3c16;
+    opacity: 1;
+  }
+  .glide__arrow--left {
+    color: #8d3c16;
+    position: absolute;
+    left: -90px; }
+  .glide__arrow--right {
+    color: #8d3c16;
+    position: absolute;
+    right: -90px; }
+  .glide__arrow--disabled {
+    opacity: 0.33; }
+
+.glide--swipeable {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab; }
+
+.glide--dragging {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing; }
